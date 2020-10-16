@@ -1,65 +1,17 @@
-/* p{
-    color: blue;
+img {
+    display: block;
+    background-color: lightskyblue;
+    width: 90px;
+    height: 80px;
+    padding: 20px;
+    border:  10px solid red;
+    margin:20px;
 }
-p.error {
-    color: red;
+
+div{
+    height:160px;
+    padding:60px;
+    border:30px;
+    margin:60px;
+  
 }
-p.success.feedback{
-    color: green;
-    border:5px solid yellow;
-} */
-
-/* .feedback{
-    /* border-width: 5px;
-    border-style: solid;
-    border-color: yellow; */
-    /* border:5px solid yellow; }*/
-
-    #top-container{
-      background-color: lightgrey;
-  }
-  #bottom-container{
-      background-color: lightgreen;
-  }
-  
-      div .error{
-          color: red;
-      }
-      
-      /* div.error{
-          color: red;
-      } */
-  
-      a[href]{
-          font-size:30px;
-          text-decoration: none;
-          /* text-transform: capitalize; */
-          text-transform: uppercase;
-          background-color: yellow;
-      }
-  
-      /* a[href="www.google.com"]{
-          background-color: green;
-      } */
-  
-      a[href*="google"]{
-          background-color: green;
-      }
-  
-      a[href$="ac.id"]{
-          background-color: purple;
-      }
-  
-      h1:hover{
-          color: white;
-          background-color: black;
-      }
-  
-      p::selection{
-          background-color: red;
-          color: yellow;
-      }
-  
-      a::before{
-      content:"Link - ";
-      }
